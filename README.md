@@ -6,10 +6,19 @@
 - [Software Engineering](#software-engineering)
     - [Web Development](#web-development)
         - [My Web Development Journey](#my-web-development-journey)
+            - [Prior to Freshman Year](#prior-to-freshman-year)
+            - [Prior to Sophmore Year](#prior-to-sophomore-year)
+            - [Prior to Junior Year](#prior-to-junior-year)
+            - [Junior Year to Last Semester of Senior Year](#junior-year-to-last-semester-of-senior-year-applying-full-stack-development-to-different-ongoing-projects)
+            - [Sidenote regarding self-learning (Tutorial Hell)](#tutorial-hell)
         - [Web Development Resources](#web-development-resources)
     - [Data Structures and Algorithms](#data-structures-and-algorithms-dsa)
     - [Other Software Engineering Resources](#other-software-engineering-resources)
 - [Data Science](#data-science)
+    - [Research News](#research-news)
+    - [Learning Resources](#learning-resources)
+    - [Getting started with Machine Learning](#getting-started-with-machine-learning)
+    - [Datasets](#datasets)
 - [Cybersecurity](#cybersecurity)
     - [Cybersecurity Youtubers](#cybersecurity-youtubers)
     - [Cybersecurity News](#cybersecurity-news)
@@ -17,19 +26,20 @@
     - [Reverse Engineering](#reverse-engineering)
     - [IT Certification](#it-certifications)
     - [Capture the Flags (CTFs)](#capture-the-flags-ctfs)
-
 - [Mathematics](#mathematics)
-- [Others](#others)
+- [Favorites and Iconic People](#favorites-and-iconic-people)
 - [Comedy/Entertainment](#comedyentertainment)
-- [Favorites and Iconic People](#favorites)
+- [Others](#others)
 
 ![CS Map](src/cs_map.png)
+*Map of Computer Science: [Source](https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science)*
+
 # Overview of the purpose and motivation
 - Computer Science is gigigantic. It covers every aspect of computing, both theoretical and practical. It can almost feel as if you are endlessly learning the latest state-of-the-art technologies and tech stacks. After talking with several students on "how to get started with X", whether X is Web Development or just how to begin programming, I wanted to provide resources I accumulated over my time at Chapman in an effort to pass down some knowledge and awareness of FREE learning materials. 
 
 - This can stem from resources that help aid with side-projects, supplemental material for coursework, dialogue of my journey and how I utilize these materials, or just what I follow on a day-to-day basis to stay caught up on the latest tech (twitter accounts, youtubers, podcast, news media). 
 
-- Also DISCLAIMER - Since Computer Science is a huge field, I only cover certain categories that I feel comfortable spreading resources. Not every topic in Computer Science will be listed.
+- Also, DISCLAIMER - Since Computer Science is a huge field, I only cover certain categories that I feel comfortable spreading resources to. Not every topic in Computer Science will be listed.
 
 - If you would like to add anything, feel free to message me or submit a pull request. I'm making this open-source so feel free to contribute and provide any helpful resources to your fellow peers!
 
@@ -44,10 +54,10 @@
         - Specifically, gdb debugger helped me out in pointing me in the right direction when running into segmentation faults in C/C++. But in general, just learning how to use VScode's debugger will save a lot of time. It's suprisingly simple and I feel like it should be emphasized more at university.
 
     - [AWS](https://aws.amazon.com/)
-        - Explore the domain of cloud-computing. AWS offers a 12 month free tier for students
+        - Explore the domain of cloud-computing. AWS offers a 12 month free tier for students. (When your 12 months is over, you can delete your account and create a new one).
 
     - Hackathons
-        - [MLH (Major League Hacking)](https://mlh.io/seasons/2024/events): The main global hackathon community. If you are looking to participate in a hackathon, look no further. 
+        - [MLH (Major League Hacking)](https://mlh.io/seasons/2024/events): The main global hackathon community. If you are looking to participate in a hackathon, look no further. (Pro-tip: Even if you don't exactly participate in their hackathons, if you tune into the welcome cermonies in the virtual events they usually announce free stuff like .tech domains for a year, free credits to linode...). 
         - [Devpost](https://devpost.com/) is also great! It's what most hackathons use for project submissions.
 
     - [Git](https://www.youtube.com/watch?v=8JJ101D3knE)
@@ -56,23 +66,27 @@
 
     - Free Hosting Services
         - [Vercel](https://vercel.com/pricing)
-            - Vercel provides free hosting services. Can be used to host web-applications
+            - Vercel provides free hosting services. Can be used to host web-applications.
         - [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
             - Github Pages also provides free hosting services to static webpages. The URL of the webpage is typically {yourusername.github.io}. Github pages is perfect if you want to build a portfolio website.
 
 ## Software Engineering
 ### Web Development
 #### My Web Development Journey (during university)
+##### Prior to Freshman Year
 - Prior to entering my freshman year (summer), I was learning HTML and CSS. The motivation was to help build a website for a family relative's restaurant. This was also the time where I had no coding experience, went in to university undeclared, and thought coding in HTML was what being in Computer Science is all about. 
+##### Prior to Sophomore Year
 - Prior to my sophomore year (summer), this is when I attended my first couple virtual hackathons and self-learned Flask, and what APIs are, and how to integrate them into my Flask application.
+##### Prior to Junior Year
 - Prior to junior year (summer), I realized that if I wanted to do a deep dive into web development, learning javascript is inevitable (no more Flask in python :/ ). So I partitioned part of my summer learning the syntax of javascript (1-2 weeks), and then spent some time learning ReactJS and how to integrate it into a full stack application.
 
-- Junior year to current last semester of senior year (applying full stack development to different ongoing projects)
-    - Here is when I practiced a lot and really getting comfortable with the full stack development workflow. Throughout the school year, participating in several hackathons gave me lots of experience in full stack development. It was hands on practice that you don't get a chance to do inside a classroom setting! I worked on several side-projects I've been inspired to work on, and also helped friends build out a website portfolio which exposed me to more advanced web development concepts. 
+##### Junior Year to Last Semester of Senior Year (applying full stack development to different ongoing projects)
+- Here is when I practiced a lot and really getting comfortable with the full stack development workflow. Throughout the school year, participating in several hackathons gave me lots of experience in full stack development. It was hands on practice that you don't get a chance to do inside a classroom setting! I worked on several side-projects I've been inspired to work on, and also helped friends build out a website portfolio which exposed me to more advanced web development concepts. 
 
-- Sidenote on self-learning (goes for anything when watching a youtube tutorial): {Tutorial Hell}
+##### Tutorial Hell
+- Sidenote regarding self-learning (goes for anything when watching a youtube tutorial):
     - After you finish a programming tutorial that's an hour long on youtube, ask yourself, do you really know how to apply what you just learned? Can you now go out on your own and build a project from scratch? The answer is most likely, no.
-        - This is called Tutorial Hell. This [Medium](https://www.linkedin.com/pulse/how-escape-tutorial-hell-ikechukwu-vincent) article does a great job explaining what Tutorial Hell is. But essentially, when you watch programming tutorials without applying it to your own application, you get stuck. Remember, learning programming comes from trial and error and spending those long hours debugging, not by watching youtube tutorials. Youtube tutorials is a great way to get started and learning the concepts/syntax along the way, but it's when you do the APPLYING the concepts to real practice where you finally escape the "Tutorial Hell".  
+        - This is called Tutorial Hell. This [Medium](https://www.linkedin.com/pulse/how-escape-tutorial-hell-ikechukwu-vincent) article does a great job explaining what Tutorial Hell is. But essentially, when you watch programming tutorials without applying it to your own application, you get stuck. Remember, learning programming comes from trial and error and spending those long hours debugging, not by watching youtube tutorials. Youtube tutorials is a great way to get started in learning the concepts/syntax along the way, but it's when you do the APPLYING the concepts to real practice where you finally escape the "Tutorial Hell".  
 
 
 #### Web Development Resources
@@ -96,41 +110,53 @@
     - I used a lot of his videos freshman and sophomore year to get inspiration for programming side-project ideas. This is also how I got started with a lot of my beginner projects. His programming language preference is Python, so a lot of his videos will be Python-oriented. I've self-learned web scraping, API development using Django and Flask, and other beginner friendly projects from his videos.
 
 - [Agile](https://asana.com/resources/agile-methodology)
+    - Learning the Agile lifecycle is only going to benefit in the long run if you are going into software engineering. 
 
 ### Software Engineer Interview Prep
 - [Cracking the Coding Interview 6th Edition](https://github.com/Avinash987/Coding/blob/master/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf)
     - Basically the equivalent of the blue SAT book, but for technical interviews for software engineering.
 - [Neetcode](https://neetcode.io/)
     - An extensive leetcode list that you will prepare you for technical interviews. Neetcode contains the Blind 75 (most popular list of DSA problems) as well as the NeetCode 150 (more problems if you need more practice in a specific area). He also has a youtube that goes over the solutions to the leetcode problems.
+- [How to get good at coding interviews](https://www.youtube.com/watch?v=SVvr3ZjtjI8)
+    - This video discusses the general approach a lot of people use to study for technical interviews.  
 - [Knock 'em dead](https://www.amazon.com/Knock-Dead-Job-Interview-Interviews/dp/1440536791)
     - Very useful when preparing for behavioral interviews
 
 ## Data Science
-- Research News
-    - [MIT News](https://news.mit.edu/topic/machine-learning)
-    - [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
 
-- Learning Resources
-    - [StatQuest](https://www.youtube.com/@statquest)
-    - [Yannic Kilcher](https://www.youtube.com/@YannicKilcher)
-        - Creates ML videos on research papers, issues of AI
-    - [3Blue1Brown](https://www.youtube.com/@3blue1brown)
+### Research News
+- [MIT News](https://news.mit.edu/topic/machine-learning)
+- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+- [r/MachineLearningNews](https://www.reddit.com/r/machinelearningnews/)
+- [Yannic Kilcher](https://www.youtube.com/@YannicKilcher)
+    - Creates ML videos on research papers, issues of AI
+- [Sentdex](https://www.youtube.com/sentdex)
+    - Data Science/ML paper review. Also does tutorials.
+- [AI Explained](https://www.youtube.com/@aiexplained-official)
+    - Youtuber who covers the latest AI/ML trend. Explains it very well.
 
-- Getting started with Machine Learning
-    - [Machine Learning Specialization](https://coursera.org/specializations/machine-learning-introduction) 
-        - Andrew Ng is a globally recognized leader in AI. This course is great if you want to get started with ML. It's beginner friendly and is regarded one of the best.
-    - [CPSC392 Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5zuA_63jV6iiz5wrg76UHV)
-        - This playlist introduces you to the foundational concepts of data science. Videos are created by one of our Chapman professors, Dr. Chelsea Parlett. If you aren't taking the class but still want to learn data science, I would recommend watching the videos to understand the concepts but also do some practice on your own (this means physically typing out code).
-    - [CPSC393 Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5MkEi6m1Tm9vu-MEyiIR5f)
-        - This playlist is also made by Dr. Chelsea Parlett and introduces Deep Learning concepts.
+- I know twitter is another popular place people use to get exposed to the latest ML trends, but I haven't done much digging/exploration yet.
 
-- Datasets
-    - [Kaggle](https://www.kaggle.com/)
-        - One of my favorite places to look for datasets. They also hold kaggle competitions which are widely known in ML.
-    - [Hugging Face](https://huggingface.co/)
-        - Free ML models you can install and run on your local machine. I recently played around with stable diffusion.
-    - [Google Dataset Search](https://datasetsearch.research.google.com/)
-    - [Data.gov](https://data.gov/)
+
+### Learning Resources
+- [StatQuest](https://www.youtube.com/@statquest)
+- [3Blue1Brown](https://www.youtube.com/@3blue1brown)
+
+### Getting started with Machine Learning
+- [Machine Learning Specialization](https://coursera.org/specializations/machine-learning-introduction) 
+    - Andrew Ng is a globally recognized leader in AI. This course is great if you want to get started with ML. It's beginner friendly and is regarded one of the best.
+- [CPSC392 Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5zuA_63jV6iiz5wrg76UHV)
+    - This playlist introduces you to the foundational concepts of data science. Videos are created by one of our Chapman professors, Dr. Chelsea Parlett. If you aren't taking the class but still want to learn data science, I would recommend watching the videos to understand the concepts but also do some practice on your own (this means physically typing out code).
+- [CPSC393 Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5MkEi6m1Tm9vu-MEyiIR5f)
+    - This playlist is also made by Dr. Chelsea Parlett and introduces Deep Learning concepts.
+
+### Datasets
+- [Kaggle](https://www.kaggle.com/)
+    - One of my favorite places to look for datasets. They also hold kaggle competitions which are widely known in ML.
+- [Hugging Face](https://huggingface.co/)
+    - Free ML models you can install and run on your local machine. I recently played around with stable diffusion.
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [Data.gov](https://data.gov/)
 
 ## Cybersecurity
 ### Cybersecurity Youtubers
@@ -144,33 +170,43 @@
     - Informative videos on pen-testing
 - [LiveOverflow](https://www.youtube.com/LiveOverflow)
     - Video tutorials about CTFs, hacking, and finding bugs.
+- [Sandra - Tech & Lifestyle](https://www.youtube.com/@WithSandra)
+    - Has lots of videos on how to get started in cybersecurity, comparisons between software engineering vs. cybersecurity, free cybersecurity programs...
 
 ### Cybersecurity News
 Where I get my cybersecurity news from.
 - Twitter (or "X")
-    - I've asked several cybersecurity experts (CISO of Fox, former CEO of Target, North Dakota Government Intel team...) where they get their cybersecurity news from. And suprisingly, they get their threat intelligence from twitter. I personally created a separate twitter account aside from my personal just to keep up with cybersecurity. Here's a couple that I follow
+    - I've asked several cybersecurity experts (CISO of Fox, former CEO of Target, North Dakota Government Intel team...) where they get their cybersecurity news from. And suprisingly, one common answser they all mentioned - they get some of their threat intelligence from twitter. I personally created a separate twitter account aside from my personal just to keep up with cybersecurity. Here's a couple that I follow
 
+    - https://twitter.com/standfordio
     - https://twitter.com/uuallan
     - https://twitter.com/cyb3rops
-    - https://twitter.com/vxunderground
     - https://twitter.com/philvenables
     - https://twitter.com/BleepinComputer
-    - https://twitter.com/stanfordio
     - https://twitter.com/TheRecord_Media
     - https://twitter.com/TheHackersNews
     - https://twitter.com/threatpost
     - https://twitter.com/NCCsecurityUS
     - https://twitter.com/Sans_isc
+    - https://twitter.com/vxunderground
     - https://twitter.com/HackRead
     - https://twitter.com/USCERT_gov
     - https://twitter.com/bishopfox
-    - https://twitter.com/maddiestone
-    - Also just look up the #cybersecurity and see what's trending.
+    - https://twitter.com/MITREattack
+    - https://twitter.com/briankrebs
+    - https://twitter.com/TheRecord_Media
+    - https://twitter.com/_JohnHammond
+    - https://twitter.com/DarkReading
+    - https://twitter.com/SecurityWeek
+    - https://twitter.com/Cyber_Watch
+
+    - Also just look up the #cybersecurity or #CybersecurityNews and see what's trending.
 
 - [Y Combinator](https://news.ycombinator.com/)
 
 ### Cybersecurity Podcasts
 - [Darknet Diaries](https://darknetdiaries.com/episode/)
+    - One of my favorite podcasts to listen to for the past two years.
 - [Cyberwire](https://thecyberwire.com/)
 
 
@@ -194,22 +230,31 @@ Where I get my cybersecurity news from.
 - [Professor Leonard](https://www.youtube.com/@ProfessorLeonard)
     - Youtube professor that explains Calculus 1, 2, and 3 VERY VERY CLEARLY! I highly recommend watching Professor Leonard's videos whenever you get stuck understanding math concepts. I used his videos very extensively back when I took Calculus 2 and 3, and it was game-changing. Videos are a bit long though, as it is very much in a classroom lecture setting, so watch as supplementary material or if you have time.
 
+### Favorites and Iconic People
+- Donald Knuth
+    - Most famous for the book "The Art of Computer Programming" and known as the Father of algorithm analysis.
+- Andrew Ng
+    - One of the current leaders in AI. Also known for his Machine Learning courses on Coursera.
+- Linus Torvalds
+    - Creater of the Linux Kernel
+- Alan Turing
+    - Best known for the first modern computers. Also very famous for the concept of the Turing Test.
+- John von Neumann
+    - Best known for his breakthroughs in the architecture of modern computers.
+- Vint Cerf
+    - "Father of the internet". Co-invented the TCP and IP protocol.
 
 ## Comedy/Entertainment
 - [Mark Rober](https://www.youtube.com/@MarkRober)
     - Former NASA Engineer who creates very cool engineering videos.
 - [Michael Reeves](https://www.youtube.com/@MichaelReeves)
     - Does some interesting engineering/robotics projects... The more comedic version of Mark Rober. My personal favorite youtuber.
+- [William Osman](https://www.youtube.com/@williamosman)
+    - Similar style of content as Michael Reeves. Engineering videos are more mechanical and electrical engineering.
 - [Joma Oppa](https://www.youtube.com/@jomaoppa/)
     - Comedy skits surrounding software engineering.
 - [Fireship](https://www.youtube.com/@Fireship)
     - Tech news in a fast but comedic manner. Best known for his "___ in 100 seconds" videos.
-
-### Favorites
-- Donald Knuth
-    - Most famous for the book "The Art of Computer Programming" and known as the Father of algorithm analysis.
-- Andrew Ng
-    - One of the current leaders in AI. Also known for his Machine Learning courses on Coursera.
 
 ## Others
 - [Domain of Science](https://www.youtube.com/@domainofscience)
